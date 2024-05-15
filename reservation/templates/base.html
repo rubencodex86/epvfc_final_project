@@ -11,6 +11,9 @@
         <link rel="stylesheet" href="{% static 'css/style_base.css' %}">
         {% block css %} {% endblock %}
         <!--end-->
+        <!--external css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <!--end-->
         <title> {% block title %} Restaurant {% endblock %}</title>
     </head>
     <body>
@@ -18,7 +21,25 @@
             <div class="bg-box">
                 <header>
                     <div class="header-wrapper">
-
+                        <div class="logo-wrapper">
+                            <a href="#" id="logo-txt">Street <span>.</span></a>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li><a href="">INÍCIO</a></li>
+                                <li><a href="">MENU</a></li>
+                                <li><a href="">SOBRE</a></li>
+                                <li><a href="">RESERVAR</a></li>
+                            </ul>
+                            <div class="nav-buttons-wrapper">
+                                <div class="cart">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <button>
+                                    <a href="#">Contacto</a>
+                                </button>
+                            </div>
+                        </nav>
                     </div>
                 </header>
                 {% block content %}
