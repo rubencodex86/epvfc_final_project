@@ -12,10 +12,15 @@
 /*    color: aliceblue;*/
 /*}*/
 
+.wrapper{
+    padding-left: 6rem;
+}
+
 h2 {
     font-family: RuthLigos;
     font-size: 4rem;
     color: whitesmoke;
+    /*color: red;*/
     margin-top: 10rem;
 }
 

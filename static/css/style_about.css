@@ -5,18 +5,28 @@ body {
     font-style: normal;
 }
 
+.wrapper {
+    margin-top: 2.66rem;
+}
+
 .main-wrapper {
     display: flex;
     justify-content: space-between;
+    /*align-self: center;*/
     width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    /*height: 100vh;*/
     /*max-width: 66%;*/
     /*margin: 0 auto;*/
-    margin-top: 2.5rem;
+    /*margin-top: 2.66rem;*/
     padding-top: 5rem;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 20px;
     /*filter: blur(8px);*/
     /*  -webkit-filter: blur(8px);*/
+    /*margin-left: 10rem;*/
+    /*padding-right: 10rem;*/
 }
 
 .title {
@@ -60,12 +70,17 @@ body {
 }
 
 .main-wrapper .right-wrapper {
-    padding-left: 3rem;
+    /*padding-left: 2rem;*/
 }
 
-.main-wrapper .right-wrapper {
+.main-wrapper .right-wrapper .first {
+    padding-bottom: 1rem;
+}
+
+.main-wrapper .right-wrapper p {
     text-align: center;
     color:palegoldenrod;
     font-size: 1.33rem;
     line-height: 1.66rem;
 }
+

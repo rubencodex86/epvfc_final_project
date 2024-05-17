@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/style_menu.css' %}">
+{% endblock %}
+
+{% block title %} Street. | Menu {% endblock %}
+
+{% block content %}
+    <div class="main-wrapper">
+        <div class="title animate__animated animate__fadeIn animate__slow">
+            <h2>Menu</h2>
+        </div>
+        <div class="tab-nav animate__animated animate__fadeIn">
+            <button class="tab-link active" onclick="openTab(event, 'Pizza')">Pizzas</button>
+            <button class="tab-link" onclick="openTab(event, 'Burgers')">Hamburgers</button>
+            <button class="tab-link" onclick="openTab(event, 'Pasta')">Kebabs</button>
+        </div>
+
+        <div id="Pizza" class="tab-content animate__animated animate__zoomInRight animate__fast">
+            <div class="card">
+                <img class="card-img" src="{% static 'images/plate_pizza_01.jpg' %}" alt="">
+            </div>
+            <div class="card">
+                <img class="card-img" src="{% static 'images/plate_pizza_02.jpg' %}" alt="">
+            </div>
+            <div class="card">
+                <img class="card-img" src="{% static 'images/plate_pizza_03.jpg' %}" alt="">
+            </div>
+        </div>
+
+        <div id="Burgers" class="tab-content animate__animated animate__zoomInRight animate__fast" style="display:none">
+            <div class="card">
+                <img class="card-img" src="{% static 'images/plate_hamburger_01.jpg' %}" alt="">
+            </div>
+            <div class="card">
+                <img class="card-img" src="{% static 'images/plate_hamburger_02.jpg' %}" alt="">
+            </div>
+            <div class="card">
+                <img class="card-img" src="{% static 'images/plate_hamburger_03.jpg' %}" alt="">
+            </div>
+        </div>
+
+        <div id="Pasta" class="tab-content animate__animated animate__zoomInRight animate__fast" style="display:none">
+            <div class="card">
+                <img class="card-img" src="{% static 'images/plate_kebab_01.jpg' %}" alt="">
+            </div>
+            <div class="card">
+                <img class="card-img" src="{% static 'images/plate_kebab_02.jpg' %}" alt="">
+            </div>
+            <div class="card">
+                <img class="card-img" src="{% static 'images/plate_kebab_03.jpg' %}" alt="">
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block js %}
+    <script src="{% static 'js/script_hero_cards.js' %}"></script>
+{% endblock %}

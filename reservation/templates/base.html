@@ -23,12 +23,12 @@
                 <header>
                     <div class="header-wrapper">
                         <div class="logo-wrapper">
-                            <a href="#" id="logo-txt">Street <span>.</span></a>
+                            <a href="{% url 'home' %}" id="logo-txt">Street <span>.</span></a>
                         </div>
                         <nav>
                             <ul>
                                 <li><a href="{% url 'home' %}">INÍCIO</a></li>
-                                <li><a href="">MENU</a></li>
+                                <li><a href="{% url 'menu' %}">MENU</a></li>
                                 <li><a href="{% url 'about' %}">SOBRE</a></li>
                                 <li><a href="">RESERVAR</a></li>
                             </ul>
@@ -46,8 +46,11 @@
                 {% block content %}
                 {% endblock %}
                 <footer>
+                    footer
                 </footer>
             </div>
         </div>
+        {% block js %}
+        {% endblock %}
     </body>
 </html>
