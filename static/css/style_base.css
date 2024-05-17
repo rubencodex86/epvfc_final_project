@@ -33,7 +33,7 @@ html {
     /*background-image: url("/static/images/gourmet-sandwich-fresh-ciabatta-bread-with-grilled-meat-vegetables-generated-by-ai.jpg");*/
     background-image: url("/static/images/front-view-burger-with-french-fries.jpg");
     /*background-image: url("/static/images/ai_1.jpg");*/
-    background-color: white;
+    /*background-color: white;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,6 +102,7 @@ nav ul li a {
 
 nav ul li a:hover {
     /*animation-delay: 500s;*/
+    /*animation-duration: 5s;*/
     text-decoration: underline;
     /*font-weight: bold;*/
     /*margin: 3px;*/
