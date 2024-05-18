@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/style_about.css' %}">
+{% endblock %}
+
+{% block title %} Street. | About {% endblock %}
+
+{% block content %}
+    <div class="wrapper">
+        <div class="main-wrapper animate__animated animate__zoomInUp">
+            <div class="left-wrapper">
+                <h2 class="title">Contactos</h2>
+                <ul>
+                    <li class="first">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Rua do Restaurante, 666 | 9500-000 São Sebastião | Ponta Delgada - São Miguel - Açores
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        (+351) 296 200 200
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-at"></i>
+                        streetfoodrestaurant@street.pt
+                    </li>
+                </ul>
+            </div>
+            <div class="center-wrapper">
+                <h2 class="title">Street.</h2>
+                <p class="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus accusantium animi assumenda
+                    blanditiis deleniti dignissimos error facere fuga, officia porro qui quia reprehenderit repudiandae
+                    veniam? Distinctio ipsum odio repellat. lorem</p>
+            </div>
+            <div class="right-wrapper">
+                <h2 class="title">Horario</h2>
+                <p class="first">De Segunda a Sábado</p>
+                <p>11:30 às 15:00</p>
+                <p>17:30 às 23:00</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

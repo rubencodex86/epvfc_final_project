@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Russo+One&display=swap');
+
+@font-face {
+    font-family: 'BillionDreams';
+    src: url("../fonts/billion_dreams.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MotherDay';
+    src: url("../fonts/mother_day.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RuthLigos';
+    src: url("../fonts/ruthligos.ttf");
+    font-style: normal;
+}
+
+html {
+    width: 100%;
+    height: 100vh;
+    font-family: "Open Sans", sans-serif;
+}
+
+.banner-area {
+    /*width: 100%;*/    /* tirei depois*/
+    /*height: 100%;*/  /* tirei depois*/
+    /*margin-left: 4rem;*/
+}
+
+.banner-area .bg-box {
+    /*background-image: url("/static/images/gourmet-sandwich-fresh-ciabatta-bread-with-grilled-meat-vegetables-generated-by-ai.jpg");*/
+    background-image: url("/static/images/front-view-burger-with-french-fries.jpg");
+    /*background-image: url("/static/images/ai_1.jpg");*/
+    /*background-color: white;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; /* da altura a imagem de fundo. este*/
+    /*padding-left: 6rem;*/
+    /*padding-right: 3rem;*/
+    padding-top: 1rem;
+}
+
+
+.banner-area .bg-box header {
+    width: 100%;
+    /*height: 100%;*/
+    /*background-color: green;*/
+}
+
+#logo-txt {
+    font-family: 'MotherDay';
+    font-size: 10rem;
+    color: whitesmoke;
+    /*margin-right: 10rem;*/
+    text-decoration: none;
+}
+
+header .header-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding-left: 6rem;
+    padding-right: 3rem;
+}
+
+header .header-wrapper .logo-wrapper {
+    width: 24%;
+    display: flex;
+}
+
+nav {
+    width: 76%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /*background-color: aliceblue;*/
+}
+
+nav ul {
+    width: 82%;
+    display: flex;
+    /*background-color: yellow;*/
+    justify-content: center;
+}
+
+nav ul li {
+    /*padding-right: 2rem;*/
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    color: whitesmoke;
+    padding-right: 2.3rem;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    /*animation-delay: 500s;*/
+    /*animation-duration: 5s;*/
+    text-decoration: underline;
+    /*font-weight: bold;*/
+    /*margin: 3px;*/
+
+}
+
+
+nav .nav-buttons-wrapper {
+    width: 18%;
+    /*background-color: blue;*/
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+nav .nav-buttons-wrapper .cart {
+    color: whitesmoke;
+    font-size: 1.33rem;
+    padding-right: 1.66rem;
+    cursor: pointer;
+}
+
+nav .nav-buttons-wrapper button {
+    background-color: #EC9A00; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.33rem;
+    border-radius: 6rem;
+}
+
+nav .nav-buttons-wrapper button a {
+    text-decoration: none;
+    color: whitesmoke;
+    /*font-weight: bold;*/
+    font-family: "Open Sans", sans-serif;
+    /*font-size: 1.5rem;*/
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    /*color: whitesmoke;*/
+    /*padding-right: 2.3rem;*/
+    cursor: pointer;
+}
+
+nav .nav-buttons-wrapper button:hover {
+    background-color: #78433E;
+}
